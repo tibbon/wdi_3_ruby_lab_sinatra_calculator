@@ -1,0 +1,12 @@
+<h1>And the answer is...</h1>
+<h2>The <%= @operation %> of <%= @x %> and <%= @y %> is <%= @result %></h2>
+
+<% if @operation == 'add' %>
+	<p>ADDING IS COOL!</p>
+<% end %>
+
+<ul>
+<% 10.times do |x| %>
+	<li>Cool: <%= x + 10 %></li>
+<% end %>
+</ul>
